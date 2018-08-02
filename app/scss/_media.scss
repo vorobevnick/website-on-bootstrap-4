@@ -1,0 +1,231 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+  header {
+    height: 789px;
+  }
+  .timer {
+    font-size: 6.125em;
+    &__item {
+      min-width: 145px;
+    }
+    &__date-text {
+      font-size: 1.2rem;
+      bottom: -2px;
+    }
+  }
+  .header-icon {
+    bottom: -82px;
+  }
+  .content {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  svg {
+    bottom: -1px;
+  }
+
+  .section-cards {
+    justify-content: space-around!important;
+  }
+  .section5-description {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #section5 {
+    padding-top: 30px;
+    .section-header__light {
+      text-align: center;
+    }
+  }
+  .events {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+  header {
+    height: 736px;
+  }
+  .content {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .timer {
+    font-size: 3.7em;
+    padding: 30px 30px 20px;
+    &__item {
+      min-width: 110px;
+    }
+    &__date-text {
+      font-size: .9rem;
+      bottom: -7px;
+    }
+  }
+  .header-icon {
+    bottom: -110px;
+  }
+  .form {
+    position: relative;
+    margin: 30px auto;
+  }
+  .items {
+    padding-left: 0;
+  }
+  .tables {
+    margin-left: 0;
+    &-description {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+  .img-section3 {
+    position: relative;
+    left: 0;
+    top: -150px;
+  }
+  .section3-description {
+    margin-right: 0;
+  }
+  .button {
+    margin-right: 15px;
+  }
+  #section3 {
+    .section-header {
+      margin-right: 0;
+    }
+  }
+  .sponsors {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center!important;
+  }
+  .sponsor {
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .send {
+    margin-right: -30px;
+    margin-left: 0;
+  }
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+  header {
+    height: 676px;
+  }
+  .timer {
+    &__item {
+      min-width: 85px;
+    }
+  }
+  .logo {
+    margin-left: 5px;
+  }
+  .navbar-nav {
+    margin-left: 0;
+  }
+  .timer {
+    flex-wrap: nowrap;
+    font-size: 2.8em;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 40px;
+  }
+  .tables-caption {
+    font-size: 1.4em;
+  }
+  .tables-row {
+    font-size: 0.8em;
+    padding-right: 40px;
+  }
+  .plus {
+    margin-right: 10px;
+  }
+  .tables {
+    margin-right: 0;
+  }
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+  header {
+    height: 420px;
+  }
+  .timer {
+    &__item {
+      min-width: 50px;
+    }
+  }
+  .header-icon {
+    bottom: -45px;
+  }
+
+  .logo {
+    width: 200px;
+    margin-bottom: 25px;
+  }
+  .navbar-toggler {
+    margin-top: 0;
+  }
+  .navbar-collapse {
+    margin-top: -30px;
+  }
+
+  .timer {
+    font-size: 1.4em;
+    margin-left: 5px;
+    padding-top: 40px;
+    padding-left: 10px;
+    &__date-text {
+      font-size: .7rem;
+      bottom: -15px;
+    }
+    &__separator {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  }
+
+  .form {
+    width: 100%;
+  }
+  .plus {
+    width: 25px;
+    height: 25px;
+  }
+  .img-section3 {
+    width: 300px;
+  }
+}
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+	
+}

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Website on bootstrap 4</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-expand-xl navbar-dark">
+					<a class="offset-sm-0 col-5 col-sm-5 offset-md-1 col-md-2 navbar-brand" href="#"><img src="img/logo.png" alt="Logotype" class="logo"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="offset-md-2 col-md-auto offset-sm-0 col collapse navbar-collapse" id="navbar1">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#section3">Event Details<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#section4">Speakers</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#section5">Sponsors</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#section6">Past Events</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#section7">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+			<div class="row">
+				<div class="offset-md-1 col-md-10 offset-sm-0 col no-gutters justify-content-center">
+					<div class="row  timer justify-content-between align-items-center">
+
+						<div class="col timer__item day">
+                            <span id="timer-days">20</span>
+							<span class="timer__date-text">days</span>
+						</div>
+
+						<div class="col timer__separator">:</div>
+
+						<div class="col timer__item hours">
+                            <span id="timer-hours">03</span>
+							<span class="timer__date-text">hours</span>
+						</div>
+
+						<div class="col timer__separator">:</div>
+
+						<div class="col timer__item minutes">
+                            <span  id="timer-minutes">06</span>
+							<span class="timer__date-text">minutes</span>
+						</div>
+
+						<div class="col timer__separator">:</div>
+
+						<div class="col timer__item seconds">
+                            <span  id="timer-seconds">50</span>
+							<span class="timer__date-text">seconds</span>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/header-icon.png" alt="header-icon" class="header-icon">
+			</div>
+
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+				<polygon fill="white" points="0,100 100,0 100,100"/>
+			</svg>
+		</div>
+	</header>
+
+	<section id="section2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 offset-lg-1 col-12">
+					<div class="content">
+						<h2 class="section-header">Welcome!</h2>
+						<p class="description">
+							The biggest envato community meetup in Bangladesh is happening right now! And you can be a part of it too...
+						</p>
+						<p class="description">
+							Get together with members of the Envato community to talk shop, trade war stories, make new friends and see the faces behind the avatars. Whether you’re an author on Envato Market, a client on Envato Studio, or a learner on Tuts+, you are invited!
+						</p>
+						<p class="description">
+							It doesn’t matter as long as you have the motivation and interest to work at the envato and bring cookies to our event. Just kidding, but we don’t mind having more cookies! ;) Head over and fill up the sign up form here so that we can keep track of our guests. Don’t forget to register on our <span class="description__bold">nvite</span> page here too!
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 offset-lg-1">
+					<form class="form">
+						<div class="form-group">
+							<div class="form-header">Sign up for our event</div>
+							<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name Surname">
+							<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+							<input type="tel" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Phone number">
+							<input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Evanto Username">
+						</div>
+
+						<button type="submit" class="btn btn-primary">Let me in!</button>
+						<p class="form-description">Hurry up, Limited seats availble
+							*we will never spam your email</p>
+					</form>
+				</div>
+			</div>
+			<div class="row items">
+				<div class="col-lg-4 item">
+					<div class="item__wrap-img">
+						<img src="img/community.png" alt="community">
+					</div>
+					<div class="item-body">
+						<h5 class="item-title">Community</h5>
+						<p class="item-text">
+							Meet the Community you’ve always talked with, in real life! This meetup will be all about authors engaging each other with interesting coversation
+							and topics. We will have loads of fun.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 item">
+					<div class="item__wrap-img">
+						<img src="img/shop.png" alt="community">
+					</div>
+					<div class="item-body">
+						<h5 class="item-title">Talk Shop</h5>
+						<p class="item-text">
+							In this meetup you will get to know the marketplaces better, because that’s why were all here for right? Learn a few tips and tricks from experienced authors from all over the country.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 item">
+					<div class="item__wrap-img">
+						<img src="img/stories.png" alt="community">
+					</div>
+					<div class="item-body">
+						<h5 class="item-title">War Stories</h5>
+						<p class="item-text">
+							Gather round fellow authors! <br>Hear the stories of success from your favorite authors and learn how they we able to tackle their problems and become successful.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="offset-md-1 col-md-10 col-12">
+					<div class="tables">
+						<div class="tables-caption">
+							<div class="row no-gutters">
+								<div class="col-2 text-center">Time</div>
+								<div class="offset-1 col">
+                                    <div class="tables-caption__text">Stuff that will happen</div>
+                                </div>
+							</div>
+						</div>
+						<div class="tables-row">
+							<div class="row no-gutters">
+								<div class="col-2  text-center">10am - 12pm</div>
+								<div class="offset-1 col">
+                                    <div class="tables-row__text">Introduction and presentations about Envato</div>
+                                </div>
+								<div class="col-1 text-center"><div class="plus"><span>+</span></div></div>
+							</div>
+						</div>
+						<div class="tables-row">
+							<div class="row no-gutters">
+								<div class="col-2  text-center">12pm - 02pm</div>
+								<div class="offset-1 col">
+                                    <div class="tables-row__text">Sessions by honorable guests and Speakers</div>
+                                </div>
+								<div class="col-1 text-center"><div class="plus"><span>+</span></div></div>
+							</div>
+						</div>
+						<div class="tables-row">
+							<div class="row no-gutters">
+								<div class="col-2  text-center">02pm - 03pm</div>
+								<div class="offset-1 col">
+                                    <div class="tables-row__text">Break and Mingle time with the authors</div>
+                                </div>
+								<div class="col-1 text-center"><div class="plus"><span>+</span></div></div>
+							</div>
+						</div>
+						<div class="tables-row">
+							<div class="row no-gutters">
+								<div class="col-2  text-center">03pm - 05pm</div>
+								<div class="offset-1 col">
+                                    <div class="tables-row__text">Portfolio Review, Rewards and Ending Presentation</div>
+                                </div>
+								<div class="col-1 text-center"><div class="plus"><span>+</span></div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="offset-md-2 col-md-8 col-12">
+					<div class="tables-description">
+						Please keep in mind that the timings may differ according to the flow of the event. The even is actually day long and we do plan to finish it within our set time but it doesn’t have to be, if we all agree to hangour for some time more, what harm could it do? :)
+					</div>
+				</div>
+			</div>
+
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+				<polygon fill="#4b4d4f" points="0,100 100,0 100,100"/>
+			</svg>
+		</div>
+	</section>
+
+    <section id="section3">
+        <div class="container">
+            <div class="row">
+
+                <div class="offset-lg-1 col-lg-3 col-12 text-center">
+                    <img src="img/envato.png" alt="" class="img-section3">
+                </div>
+
+                <div class="col-lg-7 col-12">
+                    <h2 class="section-header section-header__light">We reward the Elites!</h2>
+                    <p class="section3-description">
+                        Are you an Elite author in the Envato Marketplaces? If so we are proud of you! We want to give our thanks in achieving great success in the marketplace and we want to make known to the people of our country that you are amazing! Our Elite gifting program includes giving you special merchandize from our community and also promote your works in our community.
+                    </p>
+                    <p class="section3-description">
+                        All you have to do is contact us by clicking the button here and then its just going to the event, saying something motivational and taking that swag while looking amazing infront of thousands of other community members.
+                    </p>
+                    <p class="section3-description">
+                        *Be advised, we will only give you Elite thank you swag for each level of elite you cross. That means if you do not cross to the next elite level before the next event, you cannot claim your prizes.
+                    </p>
+
+					<div class="row justify-content-end">
+						<div class="button">
+							<a href="#" class="button__link">Bring on the swag!</a>
+						</div>
+					</div>
+
+                </div>
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="0,100 100,0 100,100"/>
+        </svg>
+    </section>
+
+    <section id="section4">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="offset-1 col-md-7">
+					<div class="section4__header">
+						<h2 class="section-header">Speakers</h2>
+						<p class="section-header__description">Meet our Valuable speakers who will be each giving 10 minutes sessions on different subjects regarding being a digital product author, working at envato and marketing your business. <br> Hope you will have a great time listening to our presentations!</p>
+					</div>
+				 </div>
+            </div>
+
+            <div class="row offset-lg-1 offset-0 col-lg-10 col  no-gutters">
+				<div class="row justify-content-between section-cards">
+					<div class="section-card"></div>
+					<div class="section-card section-card__custom">
+						<div class="section-card__header">Shahriyer	Shuvo</div>
+						<p class="section-card__description">More about selling in the
+							Envato Marketplaces</p>
+						<div>
+							<ul class="social">
+								<li class="social__item"><a class="social__link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li class="social__item"><a class="social__link" href="#"><i class="fab fa-twitter"></i></a></li>
+								<li class="social__item"><a class="social__link" href="#"><i class="fab fa-behance"></i></a></li>
+								<li class="social__item"><a class="social__link" href="#"><i class="fab fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="section-card"></div>
+					<div class="section-card"></div>
+					<div class="section-card section-card__center"></div>
+					<div class="section-card"></div>
+					<div class="section-card"></div>
+					<div class="section-card"></div>
+					<div class="section-card"></div>
+				</div>
+            </div>
+        </div>
+
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+			<polygon fill="#4b4d4f" points="0,100 100,0 100,100"/>
+		</svg>
+    </section>
+
+	<section id="section5">
+		<div class="container">
+			<div class="row justify-content-center">
+				<h2 class="section-header section-header__light">Sponsor Our Event!</h2>
+			</div>
+			<div class="row no-gutters">
+				<div class="offset-lg-3 col-lg-6 col">
+					<div class="section5-description text-center">
+						<p>If you want to help us making this event lively and successful, help us by sponsoring our event! <br>This will help us bring in more people, have better livestreaming equipment, maybe even our own chef! You can also sponsor us by giving away free swag at the event!</p>
+						<p>Here’s who have sponsored us already:</p>
+					</div>
+				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="offset-lg-3 col-lg-6">
+					<div class="row justify-content-between sponsors">
+						<div class="sponsor">
+							<img src="img/sponsor-1.png" alt="">
+						</div>
+						<div class="sponsor">
+							<img src="img/sponsor-2.png" alt="">
+						</div>
+						<div class="sponsor align-self-center">
+							<img src="img/sponsor-3.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="button">
+					<a href="#" class="button__link button__link-sponsor">Sponsor Us</a>
+				</div>
+			</div>
+
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+				<polygon fill="white" points="0,100 100,0 100,100"/>
+			</svg>
+		</div>
+
+	</section>
+
+	<section id="section6">
+		<div class="container">
+			<div class="row offset-1">
+				<h2 class="section-header">Past Events</h2>
+			</div>
+			<div class="row no-gutters">
+				<div class=" offset-1 col-6">
+					<p class="description section6_description">Check out the photos of our previous events where we rocked with a lot of Famous and enthusiatic authors! We’re always planning to make our future events feel fresh and fun to be at. :)</p>
+				</div>
+			</div>
+
+			<div class="row events">
+				<div class="col-md-6 event-card"></div>
+				<div class="col-md-6 event-card"></div>
+				<div class="col-md-5 event-card"></div>
+				<div class="col-md-7 event-card"></div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="button">
+					<a href="#" class="button__link button__link-event">View More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="section7">
+		<div class="container">
+			<div class="row offset-lg-1 offset-0 col-lg-10">
+				<div class="row send">
+					<div class="offset-md-1 col-md-4">
+						<div class="address">
+							<img src="img/send.png" alt="send" class="send__img">
+							<p class="address__description">
+								Lorem Ipsum Avenue, 420/2 elm street, Melbourne, Sydney - 2122, Kingdom of Australia
+							</p>
+
+							<div class="row justify-content-center">
+								<div class="button">
+									<a href="#" class="button__link button__link-address">View Map</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="offset-md-1 col-md-5">
+						<input type="email" class="form-control input__address" id="email_address" aria-describedby="emailHelp" placeholder="Enter your email">
+						<textarea class="form-control" aria-label="With textarea" placeholder="Type your message"></textarea>
+						<button class="send-message">Send-message</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="row justify-content-center">
+			<div class="social-footer">
+				<ul class="social">
+					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a></li>
+					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-twitter"></i></a></li>
+					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-linkedin-in"></i></a></li>
+					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-google-plus-g"></i></a></li>
+					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-tumblr"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="copyright">
+				Hope we see you at the event! <br> All Rights Reserved. Envato Bangladesh © 2015
+				<p>макет с сайта https://www.behance.net/gallery/26479637/Meetup-Event-Landing-Page-%28Free-Download%29</p>
+			</div>
+			<a href="#top" class="top__link"><i class="fas fa-angle-up"></i></a>
+		</div>
+	</footer>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>

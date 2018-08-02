@@ -1,0 +1,18 @@
+$default-font: "roboto-reg", sans-serif;
+$roboto-thin: "roboto-thin", sans-serif;
+$robotoslab-thin: "robotoslab-thin", sans-serif;
+$roboto-black: "roboto-black", sans-serif;
+$roboto-light: "roboto-light", sans-serif;
+$roboto-med: "roboto-med", sans-serif;
+$roboto-bold: "roboto-bold", sans-serif;
+$roboto-rg: "roboto-rg", sans-serif;
+$accent: #90d23d;
+$text: #242424;
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+$gutter: $grid-gutter-width;
